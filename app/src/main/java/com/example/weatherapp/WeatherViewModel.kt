@@ -40,7 +40,7 @@ class WeatherViewModel : ViewModel() {
     }
     // -----------------------------------------------------------
 
-    private val apiKey = "f9613c29af3a696f549a69bc3447202f" // <--- JANGAN LUPA API KEY
+    private val apiKey = "f673b995bd16d6b3d2063f331eabfcf9" // <--- JANGAN LUPA API KEY
 
     fun fetchWeather(city: String) {
         viewModelScope.launch {
